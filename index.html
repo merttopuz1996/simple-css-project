@@ -1,0 +1,155 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> template example</title>
+   <meta name="keywords" content="phyton,java,">
+  <meta name="description" content="template example" content="phyton,java,javascript">   
+ <!--font from google-->
+ <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/global.css">
+ <link rel="stylesheet" href="/css/main.css">
+ <!--Font awesome-->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+ <!--Tablet-->
+ <link rel="stylesheet" media="(max-width:768px)" href="/css/tablet.css">
+ <link rel="stylesheet" media="(max-width:500px)" href="/css/mobile.css">
+  
+</head>
+ <body>
+    <header class="bg-dark-blue">
+      <div class="container">
+          <nav id="navbar">
+
+        <h1 class="heading-small">Mert topuz</h1>
+        <ul>
+          <li><a href="#home">Main Page</a></li>
+          <li><a href="#training">Education Page</a></li>
+          <li><a href="#courses">Course Page</a></li>
+          <li><a href="#contact">Contact Page</a></li>
+        </ul>
+      </nav>
+      </div>
+    
+    </header>
+    <section id="home">
+      <img src="images/1.jpg" alt="picture">
+      <div class="name text-center">
+        <h2 class="heading-big">Mert topuz</h2>
+        <h3>Computer Engineeer </h3>
+      </div>
+      <a href="#courses" class="btn btn-dark">go to course</a>
+    </section>
+
+  <section id="training" class="bg-dark-blue">
+    <h3 class="text-center heading-medium"></h3>
+    <div class="items">
+      <article class="item">
+        <i class="fa fa-pencil-alt"></i>
+        <h3>Online Content</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, commodi.</p>
+      </article>
+      <article class="item">
+        <i class="fa fa-pencil-alt"></i>
+        <h3>Educations</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, commodi.</p>
+      </article>
+      <article class="item">
+        <i class="fa fa-pencil-alt"></i>
+        <h3>Conferances</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, commodi.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="courses">
+    <h3 class="text-center heading-medium">Kurslar</h3>
+
+    <div class="container">
+      <div class="courses">
+        <!-- Course 1 -->
+        <div class="course">
+          <div class="course-image">
+            <img src="images/indi1r.jpg" alt="Python" />
+            <span>%90 İndirim</span>
+          </div>
+
+          <div class="course-info">
+            <div class="title">
+              (40+ Saat) Python | Sıfırdan İleri Seviye Programlama (2020)
+            </div>
+            <div class="description">
+              (40+ Saat) Python | Sıfırdan İleri Seviye Programlama (2020)
+            </div>
+            <div class="instructor">Mustafa Murat Coşkun,Yazılım Bilimi</div>
+            <div class="rating">4.6 | (19990 Oylama)</div>
+          </div>
+        </div>
+        <!-- Course 2 -->
+        <div class="course">
+          <div class="course-image">
+            <img src="images/indir.jpg" alt="Java" />
+            <span>%90 İndirim</span>
+          </div>
+
+          <div class="course-info">
+            <div class="title">
+              Komple Java Geliştirici Kursu
+            </div>
+            <div class="description">
+              Komple Java Geliştirici Kursu | Sıfırdan Java Öğrenin
+            </div>
+            <div class="instructor">Mustafa Murat Coşkun,Yazılım Bilimi</div>
+            <div class="rating">4.6 | (7000 Oylama)</div>
+          </div>
+        </div>
+
+        <!-- Course 3 -->
+        <div class="course">
+          <div class="course-image">
+            <img src="images/indir2.png"JavaScript" />
+            <span>%90 İndirim</span>
+          </div>
+
+          <div class="course-info">
+            <div class="title">
+              Komple Modern JavaScript Kursu
+            </div>
+            <div class="description">
+              Komple Modern JavaScript Kursu - ES6+
+            </div>
+            <div class="instructor">Mustafa Murat Coşkun,Yazılım Bilimi</div>
+            <div class="rating">4.7 | (2000 Oylama)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="contact" class="bg-dark-blue">
+ <div class="contact-form">
+   <form >
+     <h4 class="text-center heading-medium">Contact me</h4>
+     <div class="form-group">
+       <label for="name">Name</label>
+       <input type="text" class="form-control"name="name" id="name" placeholder=" enter name">
+     </div>
+     <div class="form-group">
+      <label for="email">E-mail</label>
+      <input type="text" class="form-control"name="email" id="email" placeholder=" enter email ">
+    </div>
+    <div class="form-group">
+      <label for="message">Message</label>
+     <textarea name="message" id="message"  class="form-control" cols="30" rows="5" placeholder="enter your message"></textarea>
+    </div>
+    <button type="submit" class="btn btn-blue">Send</button>
+    </form>
+    <ul>
+      <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+    </ul>
+ </div>
+  </footer>
+  </body>
+ </html>
